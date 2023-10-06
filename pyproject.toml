@@ -32,7 +32,7 @@ click = ">=8"
 cryptography = ">=35"
 construct = "^2.10.56"
 zeroconf = "^0"
-attrs = "*"
+attrs = " "
 pytz = "*"
 appdirs = "^1"
 tqdm = "^4"
@@ -42,7 +42,7 @@ defusedxml = "^0"
 pydantic = ">=1,<3"
 PyYAML = ">=5,<7"
 
-# doc dependencies
+  doc dependencies
 sphinx = { version = "*", optional = true }
 sphinx_click = { version = "*", optional = true }
 sphinxcontrib-apidoc = { version = "*", optional = true }
@@ -129,3 +129,4 @@ ignore-path-errors = ["docs/index.rst;D000"]
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+ 
